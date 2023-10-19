@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>SqlSugar操作 Xugu 虚谷数据库</Title>
+    <Description>SqlSugar操作 Xugu 虚谷数据库</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SqlSugarCore" Version="5.1.4.102" />
+    <PackageReference Include="XuguClient" Version="3.3.3" />
+  </ItemGroup>
+
+</Project>
