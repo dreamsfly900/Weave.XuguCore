@@ -6,6 +6,8 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>SqlSugar操作 Xugu 虚谷数据库</Title>
     <Description>SqlSugar操作 Xugu 虚谷数据库</Description>
+    <Copyright>北京知天智为气象科技有限公司</Copyright>
+    <FileVersion />
   </PropertyGroup>
 
   <ItemGroup>
