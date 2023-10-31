@@ -1,4 +1,4 @@
-﻿using SqlSugar;
+using SqlSugar;
 using Mapster;
 using System;
 using System.Collections.Generic;
@@ -49,7 +49,7 @@ namespace Data_logic
         /// </summary>
         protected static SqlSugarScope db = new SqlSugarScope(new ConnectionConfig()
         {
-            ConnectionString = "IP=10.40.92.175;DB=SYSTEM;User=SYSDBA;PWD=SYSDBA;Port=5138;AUTO_COMMIT=on;CHAR_SET=UTF8",//CHAR_SET=GBK
+            ConnectionString = "IP=10.1.1.1;DB=SYSTEM;User=SYSDBA;PWD=SYSDBA;Port=5138;AUTO_COMMIT=on;CHAR_SET=UTF8",//CHAR_SET=GBK
             DbType = DbType.Custom.UseXugu(),
             IsAutoCloseConnection = true,
             //ConfigureExternalServices = new ConfigureExternalServices() { SqlFuncServices = SqlFuncCustom.Methods }
