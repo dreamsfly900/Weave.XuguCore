@@ -88,5 +88,10 @@ namespace SqlSugar.Xugu
             var parameter2 = model.Args[1];
             return string.Format("  ({0} like '%'||{1}) ", parameter.MemberName, parameter2.MemberName);
         }
+        public override string ToString(MethodCallExpressionModel model)
+        {
+            var parameter = model.Args[0];
+            return string.Format(" CAST({0} AS NVARCHAR)", parameter.MemberName);
+        }
     }
 }
